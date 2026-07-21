@@ -25,9 +25,12 @@ I enjoy building AI tools, websites, and automation.
 
 
 ---
-## Value Proposition 
 
-> I bring curiosity, adaptability, and a commitment to continuous learning. I enjoy solving problems with technology and applying AI tools in practical, ethical ways. My goal is to combine technical knowledge with strong communication skills to help organizations make informed, data-driven decisions 
+> [!target]-
+> ## Value Proposition 
+> 
+> > I bring curiosity, adaptability, and a commitment to continuous learning. I enjoy solving problems with technology and applying AI tools in practical, ethical ways. My goal is to combine technical knowledge with strong communication skills to help organizations make informed, data-driven decisions 
+> 
 
 ---
 ## Contact
