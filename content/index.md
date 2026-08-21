@@ -134,7 +134,7 @@ title: Joel Adeyemo
           which impact accuracy and scalability of model
         </p>
         <a
-          href="/artifacts/🧠-machine-learning-vs-deep-learning-artifact/"
+          href="/artifacts/🚅machine-learning-data-challenges-and-solutions---artifact-4"
           class="artifact-view"
         >
           VIEW DETAILS →
