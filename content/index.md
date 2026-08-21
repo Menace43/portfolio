@@ -118,6 +118,29 @@ title: Joel Adeyemo
         </a>
       </div>
     </div>
+    <div class="artifact-card">
+      <div class="artifact-image artifact-ai">
+        <span>🚅</span>
+      </div>
+      <div class="artifact-card-content">
+        <div class="artifact-category">
+          AI • MACHINE LEARNING • RESEARCH 
+        </div>
+        <h3>
+          Machine Learning Data Challenges and Solution Across Industries
+        </h3>
+        <p>
+          Exploring the different data challenges when training and develoying Machine Learning (ML) applications 
+          which impact accuracy and scalability of model
+        </p>
+        <a
+          href="/artifacts/🧠-machine-learning-vs-deep-learning-artifact/"
+          class="artifact-view"
+        >
+          VIEW DETAILS →
+        </a>
+      </div>
+    </div>
 
   </div>
 </section>
