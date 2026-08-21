@@ -1,4 +1,13 @@
+---
+title: Neural Network Understanding
+description: A comparative analysis of Neural Networks
+tags:
+  - AI
+  - Research
+  - NeuralNetworks
+---
 
+# Neural Network Understanding Artifact
 View Full Report:  [[3.3 Neural Networks Understanding How Artificial Intelligence Learns Report]]
 
 ## Introduction

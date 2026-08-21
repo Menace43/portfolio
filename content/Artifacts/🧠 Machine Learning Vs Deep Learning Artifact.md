@@ -1,3 +1,13 @@
+---
+title: Machine Learning vs Deep Learning
+description: A comparative analysis of machine learning and deep learning.
+tags:
+  - AI
+  - Research
+  - MachineLearning
+  - ArtificialLearning
+---
+# Machine Learning vs Deep Learning
 
 View Full Report:  [[2.3 Machine Learning Vs Deep Learning Report _ Joel Adeyemo]]
 ## Introduction

@@ -1,3 +1,305 @@
-@use "./variables.scss" as *;
+
 
 // put your custom CSS here!
+@use "./variables.scss" as *;
+
+/* =========================================================
+   JOEL ADEYEMO PORTFOLIO
+   Netflix-inspired portfolio styling
+   ========================================================= */
+
+/* ---------- Overall site ---------- */
+
+body {
+  background: #0b0b0d;
+}
+
+.page {
+  background: #0b0b0d;
+}
+
+.center {
+  max-width: 1400px;
+}
+
+/* ---------- Navigation / header ---------- */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 11, 13, 0.88);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ---------- Home page ---------- */
+
+body[data-slug="index"] .center {
+  max-width: 1400px;
+}
+
+body[data-slug="index"] article {
+  max-width: 1400px;
+}
+
+body[data-slug="index"] .article-title {
+  font-size: 0;
+  margin: 0;
+}
+
+body[data-slug="index"] .article-title::after {
+  content: "JOEL ADEYEMO";
+  font-size: 0;
+}
+
+/* ---------- Hero ---------- */
+
+.portfolio-hero {
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+  padding: 5rem 2rem;
+  margin: 0 -2rem 5rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 24px 24px;
+
+  background:
+    radial-gradient(
+      circle at 75% 30%,
+      rgba(124, 92, 255, 0.22),
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 20% 70%,
+      rgba(0, 180, 255, 0.12),
+      transparent 35%
+    ),
+    linear-gradient(
+      135deg,
+      #111116 0%,
+      #0b0b0d 60%,
+      #111118 100%
+    );
+}
+
+.portfolio-hero-content {
+  max-width: 850px;
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.portfolio-hero h1 {
+  font-size: clamp(3rem, 8vw, 7rem);
+  line-height: 0.95;
+  margin: 0 0 1.5rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+.portfolio-hero p {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  line-height: 1.6;
+  max-width: 650px;
+  color: #b8b8c0;
+}
+
+.portfolio-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.portfolio-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.85rem 1.4rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  font-weight: 700;
+  transition: all 0.25s ease;
+  background: #ffffff;
+  color: #0b0b0d !important;
+}
+
+.portfolio-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.12);
+}
+
+.portfolio-button.secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ---------- Section titles ---------- */
+
+.portfolio-section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin: 4rem 0 1.5rem;
+}
+
+/* ---------- Artifact grid ---------- */
+
+.artifact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 5rem;
+}
+
+.artifact-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+  overflow: hidden;
+  border-radius: 16px;
+  background: #151519;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.artifact-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.artifact-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #202026;
+}
+
+.artifact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.45s ease;
+}
+
+.artifact-card:hover .artifact-image img {
+  transform: scale(1.06);
+}
+
+.artifact-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(124, 92, 255, 0.2),
+      transparent 60%
+    ),
+    #17171d;
+}
+
+.artifact-content {
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.artifact-content h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.6rem;
+  color: #ffffff;
+}
+
+.artifact-content p {
+  color: #a7a7b0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.artifact-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.artifact-tag {
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.07);
+  color: #bdbdc5;
+  font-size: 0.72rem;
+}
+
+.artifact-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* ---------- Artifact page ---------- */
+
+body[data-slug^="Artificats/"] article {
+  max-width: 900px;
+}
+
+body[data-slug^="Artificats/"] .article-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+/* ---------- Mobile ---------- */
+
+@media all and (max-width: 1200px) {
+  .artifact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media all and (max-width: 800px) {
+  .portfolio-hero {
+    min-height: 70vh;
+    padding: 4rem 1.25rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  .portfolio-hero h1 {
+    font-size: clamp(3rem, 15vw, 5rem);
+  }
+
+  .artifact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .artifact-card {
+    min-height: 380px;
+  }
+}
