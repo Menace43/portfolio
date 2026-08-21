@@ -22,6 +22,7 @@ I enjoy building AI tools, websites, and automation.
 ## Featured Projects
 - [[✏Evolution of  AI - Artifact]]
 - [[🧠 Machine Learning Vs Deep Learning Artifact]]
+- [[⛈ Neural Network Understanding Artifact 3]]
 
 
 ---
