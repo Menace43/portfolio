@@ -1,5 +1,5 @@
 ---
-title: Machine Learning Data Challenges and Solutions
+title: Commercial Application of AI
 description: The different Data Challenges and possible solution reasonings
 tags:
   - AI
