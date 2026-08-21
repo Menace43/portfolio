@@ -1,326 +1,242 @@
 ---
 title: Joel Adeyemo
 ---
+    <div class="portfolio-home">
 
-<div class="portfolio-home">
+<nav class="portfolio-nav">
+<a href="/portfolio/" class="portfolio-logo">JOEL ADEYEMO</a>
 
-  <!-- =========================
-       NAVIGATION
-       ========================= -->
+<div class="portfolio-nav-links">
+<a href="/portfolio/" class="active">HOME</a>
+<a href="/portfolio/Artifacts/">ARTIFACTS</a>
+<a href="/portfolio/About/">ABOUT</a>
+<a href="#contact">CONTACT</a>
+</div>
+</nav>
 
-  <nav class="portfolio-nav">
+<section class="portfolio-hero">
+<div class="portfolio-hero-content">
 
-    <a href="/portfolio/" class="portfolio-logo">
-      JOEL ADEYEMO
-    </a>
+<div class="portfolio-eyebrow">
+EMBEDDED SYSTEMS • AI • AUTOMATION
+</div>
 
-    <div class="portfolio-nav-links">
+<h1>
+BUILDING WITH AI.<br>
+LEARNING BY BUILDING.
+</h1>
 
-      <a href="/portfolio/" class="active">
-        HOME
-      </a>
+<p class="portfolio-subtitle">
+Embedded Systems Engineer • AI Enthusiast • Builder
+</p>
 
-      <a href="/portfolio/Artifacts/">
-        ARTIFACTS
-      </a>
+<p class="portfolio-description">
+I build AI tools, websites, automation, and embedded systems
+while documenting what I learn along the way.
+</p>
 
-      <a href="/portfolio/About/">
-        ABOUT
-      </a>
+<div class="portfolio-buttons">
 
-      <a href="#contact">
-        CONTACT
-      </a>
+<a href="/portfolio/Artifacts/" class="portfolio-button primary">
+VIEW ARTIFACTS <span>→</span>
+</a>
 
-    </div>
+<a href="/portfolio/About/" class="portfolio-button secondary">
+ABOUT ME
+</a>
 
-  </nav>
+</div>
 
+</div>
+</section>
 
-  <!-- =========================
-       HERO
-       ========================= -->
 
-  <section class="portfolio-hero">
+<section class="portfolio-section">
 
-    <div class="portfolio-hero-content">
+<div class="section-heading">
 
-      <div class="portfolio-eyebrow">
-        EMBEDDED SYSTEMS • AI • AUTOMATION
-      </div>
+<div>
+<span class="section-eyebrow">SELECTED WORK</span>
+<h2>FEATURED ARTIFACTS</h2>
+</div>
 
-      <h1>
-        BUILDING WITH AI.<br>
-        LEARNING BY BUILDING.
-      </h1>
+<a href="/portfolio/Artifacts/" class="view-all">
+VIEW ALL →
+</a>
 
-      <p class="portfolio-subtitle">
-        Embedded Systems Engineer • AI Enthusiast • Builder
-      </p>
+</div>
 
-      <p class="portfolio-description">
-        I build AI tools, websites, automation, and embedded systems
-        while documenting what I learn along the way.
-      </p>
 
-      <div class="portfolio-buttons">
+<div class="artifact-grid">
 
-        <a
-          href="/portfolio/Artifacts/"
-          class="portfolio-button primary"
-        >
-          VIEW ARTIFACTS
-          <span>→</span>
-        </a>
 
-        <a
-          href="/portfolio/About/"
-          class="portfolio-button secondary"
-        >
-          ABOUT ME
-        </a>
+<a
+href="/portfolio/Artifacts/%F0%9F%A7%A0%20Machine%20Learning%20Vs%20Deep%20Learning%20Artifact%203/"
+class="artifact-card"
+>
 
-      </div>
+<div class="artifact-image artifact-ai">
+<span>🧠</span>
+</div>
 
-    </div>
+<div class="artifact-card-content">
 
-  </section>
+<div class="artifact-category">
+AI • RESEARCH
+</div>
 
+<h3>
+Machine Learning Vs Deep Learning
+</h3>
 
-  <!-- =========================
-       FEATURED ARTIFACTS
-       ========================= -->
+<p>
+Exploring the relationship between machine learning
+and deep learning, their foundations, and applications.
+</p>
 
-  <section class="portfolio-section">
+<span class="artifact-view">
+VIEW DETAILS →
+</span>
 
-    <div class="section-heading">
+</div>
 
-      <div>
+</a>
 
-        <span class="section-eyebrow">
-          SELECTED WORK
-        </span>
 
-        <h2>
-          FEATURED ARTIFACTS
-        </h2>
+<a
+href="/portfolio/Artifacts/%E2%9C%8FEvolution%20of%20AI%20-%20Artifact/"
+class="artifact-card"
+>
 
-      </div>
+<div class="artifact-image artifact-evolution">
+<span>✏️</span>
+</div>
 
-      <a
-        href="/portfolio/Artifacts/"
-        class="view-all"
-      >
-        VIEW ALL →
-      </a>
+<div class="artifact-card-content">
 
-    </div>
+<div class="artifact-category">
+ARTIFICIAL INTELLIGENCE
+</div>
 
+<h3>
+Evolution of AI
+</h3>
 
-    <div class="artifact-grid">
+<p>
+A look at the development of artificial intelligence
+and the technologies that shaped its evolution.
+</p>
 
+<span class="artifact-view">
+VIEW DETAILS →
+</span>
 
-      <!-- =========================
-           ARTIFACT 1
-           ========================= -->
+</div>
 
-      <a
-        href="/portfolio/Artifacts/%F0%9F%A7%A0%20Machine%20Learning%20Vs%20Deep%20Learning%20Artifact%203/"
-        class="artifact-card"
-      >
+</a>
 
-        <div class="artifact-image artifact-ai">
-          <span>🧠</span>
-        </div>
 
-        <div class="artifact-card-content">
+<a
+href="/portfolio/Artifacts/%E2%98%81%EF%B8%8F%20Neural%20Network%20Understanding%20Artifact%203/"
+class="artifact-card"
+>
 
-          <div class="artifact-category">
-            AI • RESEARCH
-          </div>
+<div class="artifact-image artifact-neural">
+<span>⛈</span>
+</div>
 
-          <h3>
-            Machine Learning Vs Deep Learning
-          </h3>
+<div class="artifact-card-content">
 
-          <p>
-            Exploring the relationship between machine learning
-            and deep learning, their foundations, and applications.
-          </p>
+<div class="artifact-category">
+AI • MACHINE LEARNING
+</div>
 
-          <span class="artifact-view">
-            VIEW DETAILS →
-          </span>
+<h3>
+Neural Network Understanding
+</h3>
 
-        </div>
+<p>
+Exploring how neural networks work and how they
+can be applied to practical problems.
+</p>
 
-      </a>
+<span class="artifact-view">
+VIEW DETAILS →
+</span>
 
+</div>
 
-      <!-- =========================
-           ARTIFACT 2
-           ========================= -->
+</a>
 
-      <a
-        href="/portfolio/Artifacts/%E2%9C%8FEvolution%20of%20AI%20-%20Artifact/"
-        class="artifact-card"
-      >
 
-        <div class="artifact-image artifact-evolution">
-          <span>✏️</span>
-        </div>
+</div>
+</section>
 
-        <div class="artifact-card-content">
 
-          <div class="artifact-category">
-            ARTIFICIAL INTELLIGENCE
-          </div>
+<section class="portfolio-about">
 
-          <h3>
-            Evolution of AI
-          </h3>
+<div>
 
-          <p>
-            A look at the development of artificial intelligence
-            and the technologies that shaped its evolution.
-          </p>
+<span class="section-eyebrow">
+ABOUT ME
+</span>
 
-          <span class="artifact-view">
-            VIEW DETAILS →
-          </span>
+<h2>
+CURIOUS BY DEFAULT.<br>
+ALWAYS BUILDING.
+</h2>
 
-        </div>
+</div>
 
-      </a>
+<div class="about-text">
 
+<p>
+I enjoy building AI tools, websites, automation,
+and embedded systems.
+</p>
 
-      <!-- =========================
-           ARTIFACT 3
-           ========================= -->
+<p>
+My portfolio is also a record of what I'm learning —
+from artificial intelligence and machine learning
+to practical software and hardware projects.
+</p>
 
-      <a
-        href="/portfolio/Artifacts/%E2%98%81%EF%B8%8F%20Neural%20Network%20Understanding%20Artifact%203/"
-        class="artifact-card"
-      >
+<a href="/portfolio/About/" class="text-link">
+MORE ABOUT ME →
+</a>
 
-        <div class="artifact-image artifact-neural">
-          <span>⛈</span>
-        </div>
+</div>
 
-        <div class="artifact-card-content">
+</section>
 
-          <div class="artifact-category">
-            AI • MACHINE LEARNING
-          </div>
 
-          <h3>
-            Neural Network Understanding
-          </h3>
+<section id="contact" class="portfolio-contact">
 
-          <p>
-            Exploring how neural networks work and how they
-            can be applied to practical problems.
-          </p>
+<span class="section-eyebrow">
+GET IN TOUCH
+</span>
 
-          <span class="artifact-view">
-            VIEW DETAILS →
-          </span>
+<h2>
+LET'S BUILD SOMETHING.
+</h2>
 
-        </div>
+<p>
+Interested in AI, embedded systems, automation,
+or just want to connect?
+</p>
 
-      </a>
+<div class="portfolio-buttons">
 
+<a href="mailto:YOUR_EMAIL_HERE" class="portfolio-button primary">
+EMAIL ME →
+</a>
 
-    </div>
+<a href="https://github.com/Menace43" class="portfolio-button secondary">
+GITHUB
+</a>
 
-  </section>
+</div>
 
-
-  <!-- =========================
-       ABOUT
-       ========================= -->
-
-  <section class="portfolio-about">
-
-    <div>
-
-      <span class="section-eyebrow">
-        ABOUT ME
-      </span>
-
-      <h2>
-        CURIOUS BY DEFAULT.
-        <br>
-        ALWAYS BUILDING.
-      </h2>
-
-    </div>
-
-    <div class="about-text">
-
-      <p>
-        I enjoy building AI tools, websites, automation,
-        and embedded systems.
-      </p>
-
-      <p>
-        My portfolio is also a record of what I'm learning —
-        from artificial intelligence and machine learning
-        to practical software and hardware projects.
-      </p>
-
-      <a
-        href="/portfolio/About/"
-        class="text-link"
-      >
-        MORE ABOUT ME →
-      </a>
-
-    </div>
-
-  </section>
-
-
-  <!-- =========================
-       CONTACT
-       ========================= -->
-
-  <section
-    id="contact"
-    class="portfolio-contact"
-  >
-
-    <span class="section-eyebrow">
-      GET IN TOUCH
-    </span>
-
-    <h2>
-      LET'S BUILD SOMETHING.
-    </h2>
-
-    <p>
-      Interested in AI, embedded systems, automation,
-      or just want to connect?
-    </p>
-
-    <div class="portfolio-buttons">
-
-      <a
-        href="mailto:YOUR_EMAIL_HERE"
-        class="portfolio-button primary"
-      >
-        EMAIL ME →
-      </a>
-
-      <a
-        href="https://github.com/Menace43"
-        class="portfolio-button secondary"
-      >
-        GITHUB
-      </a>
-
-    </div>
-
-  </section>
+</section>
 
 </div>
