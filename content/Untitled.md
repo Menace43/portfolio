@@ -20,7 +20,7 @@ title: Joel Adeyemo
         HOME
       </a>
 
-      <a href="/portfolio/Artificats/">
+      <a href="/portfolio/Artifacts/">
         ARTIFACTS
       </a>
 
@@ -66,7 +66,7 @@ title: Joel Adeyemo
       <div class="portfolio-buttons">
 
         <a
-          href="/portfolio/Artificats/"
+          href="/portfolio/Artifacts/"
           class="portfolio-button primary"
         >
           VIEW ARTIFACTS
@@ -106,7 +106,7 @@ title: Joel Adeyemo
       </div>
 
       <a
-        href="/portfolio/Artificats/"
+        href="/portfolio/Artifacts/"
         class="view-all"
       >
         VIEW ALL →
@@ -121,7 +121,7 @@ title: Joel Adeyemo
       <!-- ARTIFACT 1 -->
 
       <a
-        href="/portfolio/Artificats/%F0%9F%A7%A0%20Machine%20Learning%20Vs%20Deep%20Learning%20Artifact%203/"
+        href="/portfolio/Artifacts/%F0%9F%A7%A0%20Machine%20Learning%20Vs%20Deep%20Learning%20Artifact%203/"
         class="artifact-card"
       >
 
@@ -156,7 +156,7 @@ title: Joel Adeyemo
       <!-- ARTIFACT 2 -->
 
       <a
-        href="/portfolio/Artificats/%E2%9C%8FEvolution%20of%20AI%20-%20Artifact/"
+        href="/portfolio/Artifacts/%E2%9C%8FEvolution%20of%20AI%20-%20Artifact/"
         class="artifact-card"
       >
 
@@ -191,7 +191,7 @@ title: Joel Adeyemo
       <!-- ARTIFACT 3 -->
 
       <a
-        href="/portfolio/Artificats/%E2%98%81%EF%B8%8F%20Neural%20Network%20Understanding%20Artifact%203/"
+        href="/portfolio/Artifacts/%E2%98%81%EF%B8%8F%20Neural%20Network%20Understanding%20Artifact%203/"
         class="artifact-card"
       >
 
