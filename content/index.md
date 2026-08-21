@@ -8,8 +8,8 @@ title: Joel Adeyemo
   <a href="/portfolio/" class="portfolio-logo">JOEL ADEYEMO</a>
   <div class="portfolio-nav-links">
     <a href="/portfolio/" class="active">HOME</a>
-    <a href="/portfolio/Artifacts/">ARTIFACTS</a>
-    <a href="/portfolio/About/">ABOUT</a>
+    <a href="/artifacts/">ARTIFACTS</a>
+    <a href="/about/">ABOUT</a>
     <a href="#contact">CONTACT</a>
   </div>
 </nav>
@@ -26,7 +26,7 @@ title: Joel Adeyemo
       while documenting what I learn along the way.
     </p>
     <div class="portfolio-buttons">
-      <a href="/portfolio/Artifacts/" class="portfolio-button primary">
+      <a href="/artifacts/" class="portfolio-button primary">
         VIEW ARTIFACTS →
       </a>
       <a href="/portfolio/About/" class="portfolio-button secondary">
@@ -43,35 +43,12 @@ title: Joel Adeyemo
       <span class="section-eyebrow">SELECTED WORK</span>
       <h2>FEATURED ARTIFACTS</h2>
     </div>
-    <a href="/portfolio/Artifacts/" class="view-all">
+    <a href="/artifacts/" class="view-all">
       VIEW ALL →
     </a>
   </div>
 
   <div class="artifact-grid">
-    <div class="artifact-card">
-      <div class="artifact-image artifact-ai">
-        <span>🧠</span>
-      </div>
-      <div class="artifact-card-content">
-        <div class="artifact-category">
-          AI • RESEARCH
-        </div>
-        <h3>
-          Machine Learning Vs Deep Learning
-        </h3>
-        <p>
-          Exploring the relationship between machine learning
-          and deep learning, their foundations, and applications.
-        </p>
-        <a
-          href="/portfolio/Artifacts/%F0%9F%A7%A0%20Machine%20Learning%20Vs%20Deep%20Learning%20Artifact%203/"
-          class="artifact-view"
-        >
-          VIEW DETAILS →
-        </a>
-      </div>
-    </div>
     <div class="artifact-card">
       <div class="artifact-image artifact-evolution">
         <span>✏️</span>
@@ -88,7 +65,30 @@ title: Joel Adeyemo
           and the technologies that shaped its evolution.
         </p>
         <a
-          href="/portfolio/Artifacts/%E2%9C%8FEvolution%20of%20AI%20-%20Artifact/"
+          href="/artifacts/✏evolution-of--ai---artifact/"
+          class="artifact-view"
+        >
+          VIEW DETAILS →
+        </a>
+      </div>
+    </div>
+    <div class="artifact-card">
+      <div class="artifact-image artifact-ai">
+        <span>🧠</span>
+      </div>
+      <div class="artifact-card-content">
+        <div class="artifact-category">
+          AI • RESEARCH
+        </div>
+        <h3>
+          Machine Learning Vs Deep Learning
+        </h3>
+        <p>
+          Exploring the relationship between machine learning
+          and deep learning, their foundations, and applications.
+        </p>
+        <a
+          href="/artifacts/🧠-machine-learning-vs-deep-learning-artifact/"
           class="artifact-view"
         >
           VIEW DETAILS →
@@ -111,7 +111,7 @@ title: Joel Adeyemo
           can be applied to practical problems.
         </p>
         <a
-          href="/portfolio/Artifacts/%E2%98%81%EF%B8%8F%20Neural%20Network%20Understanding%20Artifact%203/"
+          href="artifacts/⛈-neural-network-understanding-artifact-3/"
           class="artifact-view"
         >
         VIEW DETAILS →
@@ -141,7 +141,7 @@ title: Joel Adeyemo
       from artificial intelligence and machine learning
       to practical software and hardware projects.
     </p>
-    <a href="/portfolio/About/" class="text-link">
+    <a href="/about/" class="text-link">
       MORE ABOUT ME →
     </a>
 
