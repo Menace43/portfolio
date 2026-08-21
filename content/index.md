@@ -140,6 +140,28 @@ title: Joel Adeyemo
         </a>
       </div>
     </div>
+     <div class="artifact-card">
+      <div class="artifact-image artifact-ai">
+        <span>🚅</span>
+      </div>
+      <div class="artifact-card-content">
+        <div class="artifact-category">
+          AI • MACHINE LEARNING • RESEARCH 
+        </div>
+        <h3>
+          Commerical Application of AI- Newsletter
+        </h3>
+        <p>
+          Looking across Commerical AI and investing the business benefit for the AI
+        </p>
+        <a
+          href="/artifacts/🚅machine-learning-data-challenges-and-solutions---artifact-4"
+          class="artifact-view"
+        >
+          VIEW DETAILS →
+        </a>
+      </div>
+    </div>
 
   </div>
 </section>
