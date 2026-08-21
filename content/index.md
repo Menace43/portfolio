@@ -54,7 +54,7 @@ title: Joel Adeyemo
       </div>
       <div class="artifact-card-content">
         <div class="artifact-category">
-          ARTIFICIAL INTELLIGENCE
+          ARTIFICIAL INTELLIGENCE • MACHINE LEARNING
         </div>
         <h3>
           Evolution of AI
@@ -64,7 +64,7 @@ title: Joel Adeyemo
           and the technologies that shaped its evolution.
         </p>
         <a
-          href="/artifacts/✏evolution-of--ai---artifact/"
+          href="/artifacts/✏evolution-of--ai---artifact 1/"
           class="artifact-view"
         >
           VIEW DETAILS →
@@ -133,7 +133,7 @@ title: Joel Adeyemo
           which impact accuracy and scalability of model
         </p>
         <a
-          href="/artifacts/🚅machine-learning-data-challenges-and-solutions---artifact-4"
+          href="/artifacts/🚅machine-learning-data-challenges-and-solutions---artifact-4/"
           class="artifact-view"
         >
           VIEW DETAILS →
@@ -142,20 +142,20 @@ title: Joel Adeyemo
     </div>
      <div class="artifact-card">
       <div class="artifact-image artifact-ai">
-        <span>🚅</span>
+        <span>🏢</span>
       </div>
       <div class="artifact-card-content">
         <div class="artifact-category">
           AI • MACHINE LEARNING • RESEARCH 
         </div>
         <h3>
-          Commerical Application of AI- Newsletter
+          Commercial Application of AI- Newsletter
         </h3>
         <p>
-          Looking across Commerical AI and investing the business benefit for the AI
+          Looking across Commercial AI and investing the business benefit for the AI
         </p>
         <a
-          href="/artifacts/🚅machine-learning-data-challenges-and-solutions---artifact-4"
+          href="artifacts/🏢-commercial-applications-of-ai----artifact-5/"
           class="artifact-view"
         >
           VIEW DETAILS →

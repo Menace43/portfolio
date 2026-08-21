@@ -15,7 +15,31 @@ description: Projects, experiments, research, and things I've built.
   </div>
 
   <div class="artifacts-grid">
-    <div class="artifacts-card" href="/portfolio/Artifacts/%F0%9F%A7%A0%20Machine%20Learning%20Vs%20Deep%20Learning%20Report/">
+    <div class="artifacts-card"href="/artifacts/✏evolution-of--ai---artifact 1/">
+      <div class="artifacts-card-image">
+        <div class="artifacts-placeholder">🤖</div>
+      </div>
+      <div class="artifacts-card-content">
+        <div class="artifact-category">
+          ARTIFICIAL INTELLIGENCE
+        </div>
+        <h2>
+          Evolution of AI
+        </h2>
+        <p>
+          A look at the development of artificial intelligence and the technologies that shaped its evolution.
+        </p>
+        <div class="artifact-tags">
+          <span>AI</span>
+          <span>Automation</span>
+          <span>Agents</span>
+        </div>
+        <div class="artifacts-card-link">
+          VIEW DETAILS →
+        </div>
+      </div>
+    </div>
+    <div class="artifacts-card" href="/artifacts/🧠-machine-learning-vs-deep-learning-artifact/">
       <div class="artifacts-card-image">
         <div class="artifacts-placeholder">🧠</div>
        </div>
@@ -40,21 +64,19 @@ description: Projects, experiments, research, and things I've built.
             </div>
         </div>
     </div>
-    <div class="artifacts-card"href="/portfolio/Artifacts/AI%20Agent/">
+    <div class="artifacts-card"href="/artifacts/⛈-neural-network-understanding-artifact-3/">
       <div class="artifacts-card-image">
         <div class="artifacts-placeholder">🤖</div>
       </div>
       <div class="artifacts-card-content">
         <div class="artifact-category">
-          AI • AUTOMATION
+          AI • MACHINE LEARNING
         </div>
         <h2>
-          AI Agent
+          Neural Network Understanding
         </h2>
         <p>
-          An exploration of AI agents, automation,
-          and practical applications of artificial
-          intelligence.
+          Exploring how neural networks work and how they can be applied to practical problems.
         </p>
         <div class="artifact-tags">
           <span>AI</span>
@@ -66,26 +88,49 @@ description: Projects, experiments, research, and things I've built.
         </div>
       </div>
     </div>
-    <div class="artifacts-card" href="/portfolio/Artifacts/AI%20Agent/">
+    <div class="artifacts-card" href="/artifacts/🚅machine-learning-data-challenges-and-solutions---artifact-4/">
       <div class="artifacts-card-image">
-        <div class="artifacts-placeholder">🤖</div>
+        <div class="artifacts-placeholder">🚅</div>
       </div>
       <div class="artifacts-card-content">
         <div class="artifact-category">
-          AI • AUTOMATION
+          AI • MACHINE LEARNING • RESEARCH 
         </div>
         <h2>
-          AI Agent
+          Machine Learning Data Challenges and Solution Across Industries
         </h2>
         <p>
-          An exploration of AI agents, automation,
-          and practical applications of artificial
-          intelligence.
+          Exploring the different data challenges when training and develoying Machine Learning (ML) applications 
+          which impact accuracy and scalability of model
         </p>
         <div class="artifact-tags">
           <span>AI</span>
-          <span>Automation</span>
-          <span>Agents</span>
+          <span>Machine Learning</span>
+          <span>Research</span>
+        </div>
+        <div class="artifacts-card-link">
+          VIEW DETAILS →
+        </div>
+      </div>
+    </div>
+    <div class="artifacts-card"href="/artifacts/🏢-commercial-applications-of-ai----artifact-5/">
+      <div class="artifacts-card-image">
+        <div class="artifacts-placeholder">🏢</div>
+      </div>
+      <div class="artifacts-card-content">
+        <div class="artifact-category">
+          AI • MACHINE LEARNING • RESEARCH 
+        </div>
+        <h2>
+          Commercial Application of AI- Newsletter
+        </h2>
+        <p>
+          Looking across Commercial AI and investing the business benefit for the AI
+        </p>
+        <div class="artifact-tags">
+          <span>AI</span>
+          <span>Machine Learning</span>
+          <span>Research</span>
         </div>
         <div class="artifacts-card-link">
           VIEW DETAILS →
