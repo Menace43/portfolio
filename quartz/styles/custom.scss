@@ -963,3 +963,522 @@ body:has(.portfolio-home) {
     padding: 0 !important;
   }
 }
+
+/* ==========================================================
+   CLEAN PORTFOLIO NAVIGATION
+   ========================================================== */
+
+.portfolio-nav-links a {
+  background: transparent !important;
+  color: #a8a5b3 !important;
+  border: none !important;
+  border-radius: 0 !important;
+
+  padding: 10px 4px !important;
+
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.portfolio-nav-links a:hover {
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+.portfolio-nav-links a.active {
+  background: transparent !important;
+  color: #ffffff !important;
+
+  border-bottom: 2px solid #806ff0 !important;
+}
+
+
+/* ==========================================================
+   ARTIFACT VIEW BUTTON
+   ========================================================== */
+
+.artifact-view {
+  display: inline-flex !important;
+  align-items: center;
+
+  background: #6c5ce7 !important;
+  color: #ffffff !important;
+
+  border: none !important;
+  border-radius: 8px !important;
+
+  padding: 12px 16px !important;
+
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.artifact-view:hover {
+  background: #806ff0 !important;
+  color: #ffffff !important;
+
+  transform: translateY(-1px);
+}
+
+/* =========================================================
+   ARTIFACTS PAGE
+   Keep Explorer | Remove Graph | Expand Main Content
+   ========================================================= */
+
+body:has(.artifacts-page) {
+
+  /* -------------------------------------------------------
+     KEEP LEFT EXPLORER
+     ------------------------------------------------------- */
+
+  .left.sidebar {
+    display: flex !important;
+  }
+
+  /* -------------------------------------------------------
+     REMOVE RIGHT GRAPH VIEW
+     ------------------------------------------------------- */
+
+  .right.sidebar {
+    display: none !important;
+  }
+
+
+  /* -------------------------------------------------------
+     PAGE LAYOUT
+
+     LEFT:
+       Explorer
+
+     RIGHT:
+       Main portfolio content
+
+     No third Graph column.
+     ------------------------------------------------------- */
+
+  .page {
+    //grid-template-columns: 2400px minmax(0, 1fr) !important;
+    //column-gap: 0 !important;
+    //width: 100% !important;
+    padding: 0;
+
+  }
+
+
+  /* -------------------------------------------------------
+     CENTER CONTENT
+     ------------------------------------------------------- */
+
+  .center {
+    //width: 100% !important;
+    //min-width: 0 !important;
+    max-width: none !important;
+    //max-width: none;
+    width: 100%;
+  }
+
+  .article {
+    //width: 100% !important;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+  }
+
+  //.center > article {
+    //width: 100% !important;
+    //max-width: none !important;
+    //min-width: 0 !important;
+  //}
+
+
+  /* -------------------------------------------------------
+     HIDE NORMAL QUARTZ ARTICLE HEADER
+
+     We use our own portfolio heading.
+     ------------------------------------------------------- */
+
+  .breadcrumbs,
+  .article-title,
+  .content-meta,
+  .note-properties {
+    display: none !important;
+  }
+
+
+  /* =======================================================
+     ARTIFACTS CONTENT
+     ======================================================= */
+
+  .artifacts-page {
+
+    width: 100% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+
+    padding:
+      60px
+      60px
+      120px !important;
+
+    box-sizing: border-box !important;
+  }
+
+
+  /* -------------------------------------------------------
+     INTRO
+     ------------------------------------------------------- */
+
+  .artifacts-intro {
+    margin-bottom: 55px !important;
+  }
+
+
+  .artifacts-intro .section-eyebrow {
+
+    display: block !important;
+    margin-bottom: 18px !important;
+    color: #8f8aa3 !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.2em !important;
+    text-transform: uppercase !important;
+  }
+
+  .artifacts-intro h1 {
+    margin: 0 0 20px !important;
+    color: var(--dark) !important;
+    font-size:
+      clamp(48px, 6vw, 80px) !important;
+
+    font-weight: 800 !important;
+    line-height: 0.95 !important;
+    letter-spacing: -0.05em !important;
+  }
+
+
+  .artifacts-intro p {
+    max-width: 750px !important;
+    margin: 0 !important;
+    color: var(--gray) !important;
+    font-size: 19px !important;
+    line-height: 1.65 !important;
+  }
+
+
+  /* =======================================================
+     CARD GRID
+     ======================================================= */
+
+  .artifacts-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.3rem;
+    //gap: 26px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    //margin: 0 !important;
+    //padding: 0 !important;
+    //align-items: stretch !important;
+  }
+
+
+  /* =======================================================
+     CARD
+     ======================================================= */
+
+  .artifacts-grid > .artifacts-card {
+
+    display: flex !important;
+    flex-direction: column !important;
+    //width: 100% !important;
+    //min-width: 0 !important;
+    //min-height: 200px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    background: #15141a !important;
+
+    border:1px solid #2b2933 !important;
+    border-radius: 12px !important;
+    color: white !important;
+    text-decoration: none !important;
+    position: relative !important;
+    transition:
+      transform 0.25s ease,
+      border-color 0.25s ease,
+      box-shadow 0.25s ease;
+  }
+
+
+  .artifacts-grid > .artifacts-card:hover {
+
+    transform: translateY(-6px) !important;
+    border-color: #7566e8 !important;
+    box-shadow:
+      0 20px 50px
+      rgba(0, 0, 0, 0.25) !important;
+  }
+
+
+  /* =======================================================
+     CARD IMAGE
+     ======================================================= */
+
+  .artifacts-card-image {
+
+    //display: flex !important;
+    //flex: 0 0 230px !important;
+    //width: 100% !important;
+    //height: 230px !important;
+    //min-height: 230px !important;
+    //margin: 0 !important;
+    //padding: 0 !important;
+    //align-items: center !important;
+    //justify-content: center !important;
+    //overflow: hidden !important;
+    //box-sizing: border-box !important;
+
+    //background:radial-gradient(circle at center,#28234c 0%,#11101b 70%)!important;
+
+    position: relative;
+    display: flex;
+    flex: 0 0 230px !important;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    font-size: 5rem;
+    transition: transform 0.4s ease;
+    background:radial-gradient(circle at center,#28234c 0%,#11101b 70%)!important;
+  }
+
+
+  .artifacts-placeholder {
+
+    //display: flex !important;
+    //align-items: center !important;
+    //justify-content: center !important;
+    //width: 100% !important;
+    //height: 100% !important;
+    //margin: 0 !important;
+    //padding: 0 !important;
+    font-size: 75px !important;
+    //line-height: 1 !important;
+  }
+
+
+
+  /* =======================================================
+     CARD CONTENT
+     ======================================================= */
+
+  .artifacts-card-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.4rem;
+
+
+    //display: flex !important;
+    //flex-direction: column !important;
+    //flex: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+    adding: 26px !important;
+    box-sizing: border-box !important;
+    background: #15141a !important;
+  }
+
+
+  /* Category */
+
+  .artifacts-card-content
+  .artifact-category {
+
+    display: block !important;
+
+    width: 100% !important;
+
+    margin: 0 0 12px !important;
+
+    padding: 0 !important;
+
+    color: #918b9f !important;
+
+    font-size: 11px !important;
+
+    font-weight: 700 !important;
+
+    letter-spacing: 0.15em !important;
+
+    line-height: 1.4 !important;
+
+    text-transform: uppercase !important;
+  }
+
+
+  /* Title */
+
+  .artifacts-card-content h2 {
+
+    display: block !important;
+    width: 100% !important;
+    margin: 0 0 14px !important;
+    padding: 0 !important;
+    color: #ffffff !important;
+    font-size: 24px !important;
+    font-weight: 750 !important;
+    line-height: 1.2 !important;
+    letter-spacing: -0.02em !important;
+  }
+
+
+  /* Description */
+
+  .artifacts-card-content p {
+
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #aaa7b2 !important;
+    font-size: 15px !important;
+    line-height: 1.65 !important;
+  }
+
+
+  /* Tags */
+
+  .artifact-tags {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+    width: 100% !important;
+    margin: 20px 0 0 !important;
+    padding: 0 !important;
+  }
+
+
+  .artifact-tags span {
+
+    display: inline-flex !important;
+
+    width: auto !important;
+
+    padding: 7px 11px !important;
+
+    background: #211e35 !important;
+
+    border: 1px solid #332d50 !important;
+
+    border-radius: 999px !important;
+
+    color: #b8adff !important;
+
+    font-size: 11px !important;
+
+    line-height: 1 !important;
+  }
+
+
+  /* View details */
+
+  .artifacts-card-link {
+
+    display: block !important;
+
+    width: 100% !important;
+
+    margin-top: auto !important;
+
+    padding-top: 24px !important;
+
+    color: #9b8cff !important;
+
+    font-size: 13px !important;
+
+    font-weight: 700 !important;
+
+    letter-spacing: 0.08em !important;
+  }
+
+
+  .artifacts-card:hover
+  .artifacts-card-link {
+
+    color: #ffffff !important;
+  }
+
+
+  /* =======================================================
+     TABLET
+     ======================================================= */
+
+  @media (max-width: 1100px) {
+
+    .page {
+
+      grid-template-columns:
+        240px
+        minmax(0, 1fr) !important;
+
+    }
+
+    .artifacts-page {
+
+      padding:
+        50px
+        40px
+        100px !important;
+
+    }
+
+    .artifacts-grid {
+
+      grid-template-columns:
+        repeat(2, minmax(0, 1fr)) !important;
+
+    }
+
+  }
+
+
+  /* =======================================================
+     MOBILE
+     ======================================================= */
+
+  @media (max-width: 700px) {
+
+    .left.sidebar {
+      display: none !important;
+    }
+
+    .page {
+      grid-template-columns:
+        minmax(0, 1fr) !important;
+    }
+
+    .artifacts-page {
+
+      padding:
+        40px
+        20px
+        80px !important;
+
+    }
+
+    .artifacts-grid {
+
+      grid-template-columns:
+        1fr !important;
+
+    }
+
+  }
+
+}

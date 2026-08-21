@@ -3,7 +3,6 @@ title: Joel Adeyemo
 ---
 
 <div class="portfolio-home">
-
 <nav class="portfolio-nav">
   <a href="/portfolio/" class="portfolio-logo">JOEL ADEYEMO</a>
   <div class="portfolio-nav-links">

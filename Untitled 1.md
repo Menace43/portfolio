@@ -1,0 +1,3028 @@
+@use "./variables.scss" as *;
+
+  
+
+/* ==========================================================
+
+JOEL ADEYEMO
+
+PORTFOLIO HOMEPAGE
+
+========================================================== */
+
+  
+  
+
+/* ==========================================================
+
+HIDE DEFAULT QUARTZ UI ON HOMEPAGE
+
+========================================================== */
+
+  
+
+body:has(.portfolio-home) {
+
+  
+
+#quartz-header {
+
+display: none;
+
+}
+
+  
+
+#quartz-footer {
+
+display: none;
+
+}
+
+  
+
+.sidebar.left {
+
+display: none;
+
+}
+
+  
+
+.sidebar.right {
+
+display: none;
+
+}
+
+  
+
+.page-title {
+
+display: none;
+
+}
+
+  
+
+.content-meta {
+
+display: none;
+
+}
+
+  
+
+.breadcrumbs {
+
+display: none;
+
+}
+
+  
+
+.article-title {
+
+display: none;
+
+}
+
+  
+
+.popover-hint {
+
+max-width: none;
+
+}
+
+  
+
+.center {
+
+max-width: none;
+
+width: 100%;
+
+}
+
+  
+
+.page {
+
+padding: 0;
+
+}
+
+  
+
+article {
+
+padding: 0;
+
+margin: 0;
+
+max-width: none;
+
+}
+
+}
+
+  
+  
+
+/* ==========================================================
+
+GLOBAL HOMEPAGE
+
+========================================================== */
+
+  
+
+.portfolio-home {
+
+min-height: 100vh;
+
+background:
+
+radial-gradient(
+
+circle at 80% 15%,
+
+rgba(100, 80, 255, 0.12),
+
+transparent 30%
+
+),
+
+radial-gradient(
+
+circle at 10% 60%,
+
+rgba(0, 160, 255, 0.07),
+
+transparent 30%
+
+),
+
+#09090b;
+
+  
+
+color: #f5f5f5;
+
+  
+
+margin-left: -1rem;
+
+margin-right: -1rem;
+
+  
+
+font-family:
+
+"Source Sans Pro",
+
+system-ui,
+
+sans-serif;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+NAVIGATION
+
+========================================================== */
+
+  
+
+.portfolio-nav {
+
+position: sticky;
+
+top: 0;
+
+  
+
+z-index: 1000;
+
+  
+
+height: 76px;
+
+  
+
+padding:
+
+0
+
+clamp(1.25rem, 5vw, 5rem);
+
+  
+
+display: flex;
+
+  
+
+align-items: center;
+
+  
+
+justify-content: space-between;
+
+  
+
+background:
+
+linear-gradient(
+
+to bottom,
+
+rgba(9, 9, 11, 0.98),
+
+rgba(9, 9, 11, 0.82)
+
+);
+
+  
+
+backdrop-filter: blur(14px);
+
+  
+
+border-bottom:
+
+1px solid
+
+rgba(255, 255, 255, 0.06);
+
+}
+
+  
+  
+
+.portfolio-logo {
+
+color: #ffffff !important;
+
+  
+
+font-family:
+
+"Schibsted Grotesk",
+
+sans-serif;
+
+  
+
+font-size: 1.1rem;
+
+  
+
+font-weight: 800;
+
+  
+
+letter-spacing: -0.04em;
+
+  
+
+text-decoration: none !important;
+
+  
+
+white-space: nowrap;
+
+}
+
+  
+  
+
+.portfolio-nav-links {
+
+display: flex;
+
+  
+
+align-items: center;
+
+  
+
+gap: clamp(1rem, 3vw, 2.5rem);
+
+}
+
+  
+  
+
+.portfolio-nav-links a {
+
+position: relative;
+
+  
+
+color: #aaaab2 !important;
+
+  
+
+font-size: 0.75rem;
+
+  
+
+font-weight: 700;
+
+  
+
+letter-spacing: 0.12em;
+
+  
+
+text-decoration: none !important;
+
+  
+
+transition:
+
+color 0.2s ease;
+
+}
+
+  
+  
+
+.portfolio-nav-links a:hover,
+
+.portfolio-nav-links a.active {
+
+color: #ffffff !important;
+
+}
+
+  
+  
+
+.portfolio-nav-links a.active::after {
+
+content: "";
+
+  
+
+position: absolute;
+
+  
+
+left: 0;
+
+right: 0;
+
+  
+
+bottom: -9px;
+
+  
+
+height: 2px;
+
+  
+
+background: #ffffff;
+
+  
+
+border-radius: 10px;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+HERO
+
+========================================================== */
+
+  
+
+.portfolio-hero {
+
+position: relative;
+
+  
+
+min-height: 680px;
+
+  
+
+display: flex;
+
+  
+
+align-items: center;
+
+  
+
+padding:
+
+7rem
+
+clamp(1.25rem, 8vw, 9rem);
+
+  
+
+overflow: hidden;
+
+  
+
+background:
+
+  
+
+linear-gradient(
+
+90deg,
+
+rgba(9, 9, 11, 1) 0%,
+
+rgba(9, 9, 11, 0.94) 40%,
+
+rgba(9, 9, 11, 0.45) 75%,
+
+rgba(9, 9, 11, 0.2) 100%
+
+),
+
+  
+
+radial-gradient(
+
+circle at 80% 40%,
+
+rgba(110, 80, 255, 0.28),
+
+transparent 35%
+
+),
+
+  
+
+radial-gradient(
+
+circle at 70% 70%,
+
+rgba(0, 150, 255, 0.15),
+
+transparent 30%
+
+),
+
+  
+
+#111116;
+
+}
+
+  
+  
+
+.portfolio-hero::after {
+
+content: "";
+
+  
+
+position: absolute;
+
+  
+
+inset: 0;
+
+  
+
+background:
+
+linear-gradient(
+
+to top,
+
+#09090b 0%,
+
+transparent 30%
+
+);
+
+  
+
+pointer-events: none;
+
+}
+
+  
+  
+
+.portfolio-hero-content {
+
+position: relative;
+
+  
+
+z-index: 2;
+
+  
+
+max-width: 850px;
+
+}
+
+  
+  
+
+.portfolio-eyebrow,
+
+.section-eyebrow {
+
+display: block;
+
+  
+
+margin-bottom: 1.2rem;
+
+  
+
+color: #a4a4ad;
+
+  
+
+font-size: 0.72rem;
+
+  
+
+font-weight: 700;
+
+  
+
+letter-spacing: 0.2em;
+
+}
+
+  
+  
+
+.portfolio-hero h1 {
+
+margin: 0;
+
+  
+
+color: #ffffff;
+
+  
+
+font-family:
+
+"Schibsted Grotesk",
+
+sans-serif;
+
+  
+
+font-size:
+
+clamp(3.4rem, 8vw, 7.5rem);
+
+  
+
+font-weight: 800;
+
+  
+
+line-height: 0.9;
+
+  
+
+letter-spacing: -0.065em;
+
+}
+
+  
+  
+
+.portfolio-subtitle {
+
+margin:
+
+2rem 0 0;
+
+  
+
+color: #ffffff;
+
+  
+
+font-size:
+
+clamp(1rem, 2vw, 1.3rem);
+
+  
+
+font-weight: 600;
+
+}
+
+  
+  
+
+.portfolio-description {
+
+max-width: 650px;
+
+  
+
+margin:
+
+1rem 0 0;
+
+  
+
+color: #a8a8b0;
+
+  
+
+font-size: 1.05rem;
+
+  
+
+line-height: 1.65;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+BUTTONS
+
+========================================================== */
+
+  
+
+.portfolio-buttons {
+
+display: flex;
+
+  
+
+flex-wrap: wrap;
+
+  
+
+gap: 0.8rem;
+
+  
+
+margin-top: 2rem;
+
+}
+
+  
+  
+
+.portfolio-button {
+
+display: inline-flex;
+
+  
+
+align-items: center;
+
+  
+
+gap: 0.7rem;
+
+  
+
+padding:
+
+0.9rem
+
+1.4rem;
+
+  
+
+border-radius: 7px;
+
+  
+
+font-size: 0.78rem;
+
+  
+
+font-weight: 800;
+
+  
+
+letter-spacing: 0.08em;
+
+  
+
+text-decoration: none !important;
+
+  
+
+transition:
+
+transform 0.2s ease,
+
+box-shadow 0.2s ease,
+
+background 0.2s ease;
+
+}
+
+  
+  
+
+.portfolio-button:hover {
+
+transform: translateY(-3px);
+
+  
+
+box-shadow:
+
+0 12px 30px
+
+rgba(0, 0, 0, 0.35);
+
+}
+
+  
+  
+
+.portfolio-button.primary {
+
+background: #ffffff;
+
+  
+
+color: #09090b !important;
+
+}
+
+  
+  
+
+.portfolio-button.secondary {
+
+background:
+
+rgba(255, 255, 255, 0.08);
+
+  
+
+color: #ffffff !important;
+
+  
+
+border:
+
+1px solid
+
+rgba(255, 255, 255, 0.16);
+
+}
+
+  
+  
+
+/* ==========================================================
+
+SECTIONS
+
+========================================================== */
+
+  
+
+.portfolio-section {
+
+max-width: 1400px;
+
+  
+
+margin:
+
+0 auto;
+
+  
+
+padding:
+
+5rem
+
+clamp(1.25rem, 5vw, 4rem);
+
+}
+
+  
+  
+
+.section-heading {
+
+display: flex;
+
+  
+
+align-items: end;
+
+  
+
+justify-content: space-between;
+
+  
+
+gap: 2rem;
+
+  
+
+margin-bottom: 2rem;
+
+}
+
+  
+  
+
+.section-heading h2,
+
+.portfolio-about h2,
+
+.portfolio-contact h2 {
+
+margin: 0;
+
+  
+
+color: #ffffff;
+
+  
+
+font-family:
+
+"Schibsted Grotesk",
+
+sans-serif;
+
+  
+
+font-size:
+
+clamp(2rem, 4vw, 3.5rem);
+
+  
+
+font-weight: 800;
+
+  
+
+line-height: 0.95;
+
+  
+
+letter-spacing: -0.05em;
+
+}
+
+  
+  
+
+.view-all {
+
+color: #a7a7af !important;
+
+  
+
+font-size: 0.75rem;
+
+  
+
+font-weight: 700;
+
+  
+
+letter-spacing: 0.1em;
+
+  
+
+text-decoration: none !important;
+
+  
+
+white-space: nowrap;
+
+  
+
+transition: color 0.2s ease;
+
+}
+
+  
+  
+
+.view-all:hover {
+
+color: #ffffff !important;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+ARTIFACT CARDS
+
+========================================================== */
+
+  
+
+.artifact-grid {
+
+display: grid;
+
+  
+
+grid-template-columns:
+
+repeat(3, minmax(0, 1fr));
+
+  
+
+gap: 1.3rem;
+
+}
+
+  
+  
+
+.artifact-card {
+
+display: flex;
+
+  
+
+flex-direction: column;
+
+  
+
+overflow: hidden;
+
+  
+
+min-width: 0;
+
+  
+
+border-radius: 12px;
+
+  
+
+background: #151519;
+
+  
+
+border:
+
+1px solid
+
+rgba(255, 255, 255, 0.07);
+
+  
+
+color: #ffffff !important;
+
+  
+
+text-decoration: none !important;
+
+  
+
+transition:
+
+transform 0.3s ease,
+
+border-color 0.3s ease,
+
+box-shadow 0.3s ease;
+
+}
+
+  
+  
+
+.artifact-card:hover {
+
+transform: translateY(-8px);
+
+  
+
+border-color:
+
+rgba(255, 255, 255, 0.18);
+
+  
+
+box-shadow:
+
+0 25px 60px
+
+rgba(0, 0, 0, 0.4);
+
+}
+
+  
+  
+
+/* ==========================================================
+
+CARD IMAGE
+
+========================================================== */
+
+  
+
+.artifact-image {
+
+position: relative;
+
+  
+
+display: flex;
+
+  
+
+align-items: center;
+
+  
+
+justify-content: center;
+
+  
+
+aspect-ratio: 16 / 9;
+
+  
+
+overflow: hidden;
+
+  
+
+font-size: 5rem;
+
+  
+
+transition:
+
+transform 0.4s ease;
+
+}
+
+  
+  
+
+.artifact-card:hover
+
+.artifact-image {
+
+transform: scale(1.02);
+
+}
+
+  
+  
+
+.artifact-ai {
+
+background:
+
+radial-gradient(
+
+circle at 50% 40%,
+
+rgba(100, 90, 255, 0.4),
+
+transparent 50%
+
+),
+
+linear-gradient(
+
+135deg,
+
+#19172b,
+
+#0d1020
+
+);
+
+}
+
+  
+  
+
+.artifact-evolution {
+
+background:
+
+radial-gradient(
+
+circle at 50% 40%,
+
+rgba(0, 170, 255, 0.35),
+
+transparent 50%
+
+),
+
+linear-gradient(
+
+135deg,
+
+#11212a,
+
+#101418
+
+);
+
+}
+
+  
+  
+
+.artifact-neural {
+
+background:
+
+radial-gradient(
+
+circle at 50% 40%,
+
+rgba(255, 100, 100, 0.28),
+
+transparent 50%
+
+),
+
+linear-gradient(
+
+135deg,
+
+#241719,
+
+#141012
+
+);
+
+}
+
+  
+  
+
+.artifact-image span {
+
+filter:
+
+drop-shadow(
+
+0 10px 30px
+
+rgba(0, 0, 0, 0.4)
+
+);
+
+}
+
+  
+  
+
+/* ==========================================================
+
+CARD CONTENT
+
+========================================================== */
+
+  
+
+.artifact-card-content {
+
+display: flex;
+
+  
+
+flex-direction: column;
+
+  
+
+flex: 1;
+
+  
+
+padding: 1.4rem;
+
+}
+
+  
+  
+
+.artifact-category {
+
+margin-bottom: 0.6rem;
+
+  
+
+color: #85858e;
+
+  
+
+font-size: 0.65rem;
+
+  
+
+font-weight: 800;
+
+  
+
+letter-spacing: 0.15em;
+
+}
+
+  
+  
+
+.artifact-card h3 {
+
+margin: 0;
+
+  
+
+color: #ffffff;
+
+  
+
+font-family:
+
+"Schibsted Grotesk",
+
+sans-serif;
+
+  
+
+font-size: 1.35rem;
+
+  
+
+font-weight: 750;
+
+  
+
+line-height: 1.1;
+
+  
+
+letter-spacing: -0.03em;
+
+}
+
+  
+  
+
+.artifact-card p {
+
+margin:
+
+0.75rem 0 0;
+
+  
+
+color: #96969f;
+
+  
+
+font-size: 0.9rem;
+
+  
+
+line-height: 1.55;
+
+}
+
+  
+  
+
+.artifact-view {
+
+margin-top: auto;
+
+  
+
+padding-top: 1.3rem;
+
+  
+
+color: #ffffff;
+
+  
+
+font-size: 0.72rem;
+
+  
+
+font-weight: 800;
+
+  
+
+letter-spacing: 0.1em;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+ABOUT
+
+========================================================== */
+
+  
+
+.portfolio-about {
+
+max-width: 1400px;
+
+  
+
+margin: 0 auto;
+
+  
+
+padding:
+
+6rem
+
+clamp(1.25rem, 5vw, 4rem);
+
+  
+
+display: grid;
+
+  
+
+grid-template-columns:
+
+1fr 1fr;
+
+  
+
+gap: 6rem;
+
+  
+
+border-top:
+
+1px solid
+
+rgba(255, 255, 255, 0.07);
+
+}
+
+  
+  
+
+.about-text {
+
+color: #a7a7af;
+
+  
+
+font-size: 1.05rem;
+
+  
+
+line-height: 1.7;
+
+}
+
+  
+  
+
+.about-text p {
+
+margin-top: 0;
+
+}
+
+  
+  
+
+.text-link {
+
+display: inline-block;
+
+  
+
+margin-top: 1rem;
+
+  
+
+color: #ffffff !important;
+
+  
+
+font-size: 0.75rem;
+
+  
+
+font-weight: 800;
+
+  
+
+letter-spacing: 0.1em;
+
+  
+
+text-decoration: none !important;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+CONTACT
+
+========================================================== */
+
+  
+
+.portfolio-contact {
+
+max-width: 1400px;
+
+  
+
+margin: 0 auto;
+
+  
+
+padding:
+
+7rem
+
+clamp(1.25rem, 5vw, 4rem);
+
+  
+
+border-top:
+
+1px solid
+
+rgba(255, 255, 255, 0.07);
+
+}
+
+  
+  
+
+.portfolio-contact h2 {
+
+max-width: 800px;
+
+}
+
+  
+  
+
+.portfolio-contact p {
+
+max-width: 600px;
+
+  
+
+margin:
+
+1.5rem 0 0;
+
+  
+
+color: #a7a7af;
+
+  
+
+font-size: 1.05rem;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+MOBILE
+
+========================================================== */
+
+  
+
+@media all and (max-width: 900px) {
+
+  
+
+.portfolio-nav {
+
+height: auto;
+
+  
+
+min-height: 68px;
+
+  
+
+padding:
+
+1rem 1.25rem;
+
+}
+
+  
+  
+
+.portfolio-nav-links {
+
+gap: 1rem;
+
+}
+
+  
+  
+
+.portfolio-nav-links a {
+
+font-size: 0.62rem;
+
+}
+
+  
+  
+
+.portfolio-hero {
+
+min-height: 620px;
+
+  
+
+padding:
+
+5rem 1.25rem;
+
+}
+
+  
+  
+
+.portfolio-hero h1 {
+
+font-size:
+
+clamp(3.1rem, 13vw, 5rem);
+
+}
+
+  
+  
+
+.artifact-grid {
+
+grid-template-columns: 1fr;
+
+}
+
+  
+  
+
+.portfolio-about {
+
+grid-template-columns: 1fr;
+
+  
+
+gap: 2rem;
+
+}
+
+  
+
+}
+
+  
+  
+
+@media all and (max-width: 550px) {
+
+  
+
+.portfolio-logo {
+
+font-size: 0.9rem;
+
+}
+
+  
+  
+
+.portfolio-nav-links {
+
+gap: 0.7rem;
+
+}
+
+  
+  
+
+.portfolio-nav-links a {
+
+font-size: 0.55rem;
+
+  
+
+letter-spacing: 0.05em;
+
+}
+
+  
+  
+
+.portfolio-hero {
+
+min-height: 580px;
+
+}
+
+  
+  
+
+.portfolio-buttons {
+
+flex-direction: column;
+
+  
+
+align-items: flex-start;
+
+}
+
+  
+  
+
+.portfolio-button {
+
+width: auto;
+
+}
+
+  
+  
+
+.section-heading {
+
+align-items: start;
+
+  
+
+flex-direction: column;
+
+}
+
+  
+
+}
+
+  
+  
+
+/* ==========================================================
+
+FULL-WIDTH PORTFOLIO HOMEPAGE
+
+Remove Quartz sidebars and expand the portfolio
+
+========================================================== */
+
+  
+
+body:has(.portfolio-home) {
+
+  
+
+/* Hide the left Quartz sidebar */
+
+.sidebar.left {
+
+display: none !important;
+
+}
+
+  
+
+/* Hide the right Graph/TOC sidebar */
+
+.sidebar.right {
+
+display: none !important;
+
+}
+
+  
+
+/* Hide the normal Quartz page header */
+
+.page-header {
+
+display: none !important;
+
+}
+
+  
+
+/* Make the Quartz body use one column */
+
+#quartz-body {
+
+grid-template-columns: 1fr !important;
+
+grid-template-areas:
+
+"grid-center"
+
+"grid-footer" !important;
+
+  
+
+column-gap: 0 !important;
+
+width: 100% !important;
+
+max-width: none !important;
+
+}
+
+  
+
+/* Expand the center content */
+
+.center {
+
+grid-area: grid-center !important;
+
+  
+
+width: 100% !important;
+
+max-width: none !important;
+
+  
+
+min-width: 0 !important;
+
+  
+
+margin: 0 !important;
+
+padding: 0 !important;
+
+}
+
+  
+
+/* Expand the article */
+
+.center > article {
+
+width: 100% !important;
+
+max-width: none !important;
+
+  
+
+margin: 0 !important;
+
+padding: 0 !important;
+
+}
+
+  
+
+/* Remove the normal Quartz title/meta area */
+
+.article-title,
+
+.content-meta,
+
+.breadcrumbs {
+
+display: none !important;
+
+}
+
+  
+
+/* Make portfolio itself full width */
+
+.portfolio-home {
+
+width: 100% !important;
+
+max-width: none !important;
+
+  
+
+margin: 0 !important;
+
+}
+
+  
+
+/* Remove default article spacing */
+
+article {
+
+margin: 0 !important;
+
+padding: 0 !important;
+
+}
+
+}
+
+  
+
+/* ==========================================================
+
+CLEAN PORTFOLIO NAVIGATION
+
+========================================================== */
+
+  
+
+.portfolio-nav-links a {
+
+background: transparent !important;
+
+color: #a8a5b3 !important;
+
+border: none !important;
+
+border-radius: 0 !important;
+
+  
+
+padding: 10px 4px !important;
+
+  
+
+transition:
+
+color 0.2s ease,
+
+border-color 0.2s ease;
+
+}
+
+  
+
+.portfolio-nav-links a:hover {
+
+background: transparent !important;
+
+color: #ffffff !important;
+
+}
+
+  
+
+.portfolio-nav-links a.active {
+
+background: transparent !important;
+
+color: #ffffff !important;
+
+  
+
+border-bottom: 2px solid #806ff0 !important;
+
+}
+
+  
+  
+
+/* ==========================================================
+
+ARTIFACT VIEW BUTTON
+
+========================================================== */
+
+  
+
+.artifact-view {
+
+display: inline-flex !important;
+
+align-items: center;
+
+  
+
+background: #6c5ce7 !important;
+
+color: #ffffff !important;
+
+  
+
+border: none !important;
+
+border-radius: 8px !important;
+
+  
+
+padding: 12px 16px !important;
+
+  
+
+transition:
+
+background 0.2s ease,
+
+transform 0.2s ease;
+
+}
+
+  
+
+.artifact-view:hover {
+
+background: #806ff0 !important;
+
+color: #ffffff !important;
+
+  
+
+transform: translateY(-1px);
+
+}
+
+  
+
+/* =========================================================
+
+ARTIFACTS PAGE
+
+Keep Explorer | Remove Graph | Expand Main Content
+
+========================================================= */
+
+  
+
+body:has(.artifacts-page) {
+
+  
+
+/* -------------------------------------------------------
+
+KEEP LEFT EXPLORER
+
+------------------------------------------------------- */
+
+  
+
+.left.sidebar {
+
+display: flex !important;
+
+}
+
+  
+
+/* -------------------------------------------------------
+
+REMOVE RIGHT GRAPH VIEW
+
+------------------------------------------------------- */
+
+  
+
+.right.sidebar {
+
+display: none !important;
+
+}
+
+  
+  
+
+/* -------------------------------------------------------
+
+PAGE LAYOUT
+
+  
+
+LEFT:
+
+Explorer
+
+  
+
+RIGHT:
+
+Main portfolio content
+
+  
+
+No third Graph column.
+
+------------------------------------------------------- */
+
+  
+
+.page {
+
+//grid-template-columns: 2400px minmax(0, 1fr) !important;
+
+//column-gap: 0 !important;
+
+//width: 100% !important;
+
+padding: 0;
+
+  
+
+}
+
+  
+  
+
+/* -------------------------------------------------------
+
+CENTER CONTENT
+
+------------------------------------------------------- */
+
+  
+
+.center {
+
+//width: 100% !important;
+
+//min-width: 0 !important;
+
+max-width: none !important;
+
+//max-width: none;
+
+width: 100%;
+
+}
+
+  
+
+.article {
+
+width: 100% !important;
+
+}
+
+//.center > article {
+
+//width: 100% !important;
+
+//max-width: none !important;
+
+//min-width: 0 !important;
+
+//}
+
+  
+  
+
+/* -------------------------------------------------------
+
+HIDE NORMAL QUARTZ ARTICLE HEADER
+
+  
+
+We use our own portfolio heading.
+
+------------------------------------------------------- */
+
+  
+
+.breadcrumbs,
+
+.article-title,
+
+.content-meta,
+
+.note-properties {
+
+display: none !important;
+
+}
+
+  
+  
+
+/* =======================================================
+
+ARTIFACTS CONTENT
+
+======================================================= */
+
+  
+
+.artifacts-page {
+
+  
+
+width: 100% !important;
+
+  
+
+max-width: 1400px !important;
+
+  
+
+margin: 0 auto !important;
+
+  
+
+padding:
+
+60px
+
+60px
+
+120px !important;
+
+  
+
+box-sizing: border-box !important;
+
+}
+
+  
+  
+
+/* -------------------------------------------------------
+
+INTRO
+
+------------------------------------------------------- */
+
+  
+
+.artifacts-intro {
+
+margin-bottom: 55px !important;
+
+}
+
+  
+  
+
+.artifacts-intro .section-eyebrow {
+
+  
+
+display: block !important;
+
+  
+
+margin-bottom: 18px !important;
+
+  
+
+color: #8f8aa3 !important;
+
+  
+
+font-size: 13px !important;
+
+  
+
+font-weight: 700 !important;
+
+  
+
+letter-spacing: 0.2em !important;
+
+  
+
+text-transform: uppercase !important;
+
+}
+
+  
+  
+
+.artifacts-intro h1 {
+
+  
+
+margin: 0 0 20px !important;
+
+  
+
+color: var(--dark) !important;
+
+  
+
+font-size:
+
+clamp(48px, 6vw, 80px) !important;
+
+  
+
+font-weight: 800 !important;
+
+  
+
+line-height: 0.95 !important;
+
+  
+
+letter-spacing: -0.05em !important;
+
+}
+
+  
+  
+
+.artifacts-intro p {
+
+  
+
+max-width: 750px !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+color: var(--gray) !important;
+
+  
+
+font-size: 19px !important;
+
+  
+
+line-height: 1.65 !important;
+
+}
+
+  
+  
+
+/* =======================================================
+
+CARD GRID
+
+======================================================= */
+
+  
+
+.artifacts-grid {
+
+  
+
+display: grid !important;
+
+  
+
+grid-template-columns:
+
+repeat(3, minmax(0, 1fr)) !important;
+
+  
+
+gap: 26px !important;
+
+  
+
+width: 100% !important;
+
+  
+
+min-width: 0 !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+align-items: stretch !important;
+
+}
+
+  
+  
+
+/* =======================================================
+
+CARD
+
+======================================================= */
+
+  
+
+.artifacts-grid > .artifacts-card {
+
+  
+
+display: flex !important;
+
+  
+
+flex-direction: column !important;
+
+  
+
+width: 100% !important;
+
+  
+
+min-width: 0 !important;
+
+  
+
+min-height: 540px !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+overflow: hidden !important;
+
+  
+
+box-sizing: border-box !important;
+
+  
+
+background: #15141a !important;
+
+  
+
+border:
+
+1px solid #2b2933 !important;
+
+  
+
+border-radius: 18px !important;
+
+  
+
+color: white !important;
+
+  
+
+text-decoration: none !important;
+
+  
+
+position: relative !important;
+
+  
+
+transition:
+
+transform 0.25s ease,
+
+border-color 0.25s ease,
+
+box-shadow 0.25s ease;
+
+}
+
+  
+  
+
+.artifacts-grid > .artifacts-card:hover {
+
+  
+
+transform: translateY(-6px) !important;
+
+  
+
+border-color: #7566e8 !important;
+
+  
+
+box-shadow:
+
+0 20px 50px
+
+rgba(0, 0, 0, 0.25) !important;
+
+}
+
+  
+  
+
+/* =======================================================
+
+CARD IMAGE
+
+======================================================= */
+
+  
+
+.artifacts-card-image {
+
+  
+
+display: flex !important;
+
+  
+
+flex: 0 0 230px !important;
+
+  
+
+width: 100% !important;
+
+  
+
+height: 230px !important;
+
+  
+
+min-height: 230px !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+align-items: center !important;
+
+  
+
+justify-content: center !important;
+
+  
+
+overflow: hidden !important;
+
+  
+
+box-sizing: border-box !important;
+
+  
+
+background:
+
+radial-gradient(
+
+circle at center,
+
+#28234c 0%,
+
+#11101b 70%
+
+) !important;
+
+}
+
+  
+  
+
+.artifacts-placeholder {
+
+  
+
+display: flex !important;
+
+  
+
+align-items: center !important;
+
+  
+
+justify-content: center !important;
+
+  
+
+width: 100% !important;
+
+  
+
+height: 100% !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+font-size: 75px !important;
+
+  
+
+line-height: 1 !important;
+
+}
+
+  
+  
+
+/* =======================================================
+
+CARD CONTENT
+
+======================================================= */
+
+  
+
+.artifacts-card-content {
+
+  
+
+display: flex !important;
+
+  
+
+flex-direction: column !important;
+
+  
+
+flex: 1 !important;
+
+  
+
+width: 100% !important;
+
+  
+
+min-width: 0 !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+padding: 26px !important;
+
+  
+
+box-sizing: border-box !important;
+
+  
+
+background: #15141a !important;
+
+}
+
+  
+  
+
+/* Category */
+
+  
+
+.artifacts-card-content
+
+.artifact-category {
+
+  
+
+display: block !important;
+
+  
+
+width: 100% !important;
+
+  
+
+margin: 0 0 12px !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+color: #918b9f !important;
+
+  
+
+font-size: 11px !important;
+
+  
+
+font-weight: 700 !important;
+
+  
+
+letter-spacing: 0.15em !important;
+
+  
+
+line-height: 1.4 !important;
+
+  
+
+text-transform: uppercase !important;
+
+}
+
+  
+  
+
+/* Title */
+
+  
+
+.artifacts-card-content h2 {
+
+  
+
+display: block !important;
+
+  
+
+width: 100% !important;
+
+  
+
+margin: 0 0 14px !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+color: #ffffff !important;
+
+  
+
+font-size: 24px !important;
+
+  
+
+font-weight: 750 !important;
+
+  
+
+line-height: 1.2 !important;
+
+  
+
+letter-spacing: -0.02em !important;
+
+}
+
+  
+  
+
+/* Description */
+
+  
+
+.artifacts-card-content p {
+
+  
+
+display: block !important;
+
+  
+
+width: 100% !important;
+
+  
+
+margin: 0 !important;
+
+  
+
+padding: 0 !important;
+
+  
+
+color: #aaa7b2 !important;
+
+  
+
+font-size: 15px !important;
+
+  
+
+line-height: 1.65 !important;
+
+}
+
+  
+  
+
+/* Tags */
+
+  
+
+.artifact-tags {
+
+  
+
+display: flex !important;
+
+  
+
+flex-wrap: wrap !important;
+
+  
+
+gap: 8px !important;
+
+  
+
+width: 100% !important;
+
+  
+
+margin: 20px 0 0 !important;
+
+  
+
+padding: 0 !important;
+
+}
+
+  
+  
+
+.artifact-tags span {
+
+  
+
+display: inline-flex !important;
+
+  
+
+width: auto !important;
+
+  
+
+padding: 7px 11px !important;
+
+  
+
+background: #211e35 !important;
+
+  
+
+border: 1px solid #332d50 !important;
+
+  
+
+border-radius: 999px !important;
+
+  
+
+color: #b8adff !important;
+
+  
+
+font-size: 11px !important;
+
+  
+
+line-height: 1 !important;
+
+}
+
+  
+  
+
+/* View details */
+
+  
+
+.artifacts-card-link {
+
+  
+
+display: block !important;
+
+  
+
+width: 100% !important;
+
+  
+
+margin-top: auto !important;
+
+  
+
+padding-top: 24px !important;
+
+  
+
+color: #9b8cff !important;
+
+  
+
+font-size: 13px !important;
+
+  
+
+font-weight: 700 !important;
+
+  
+
+letter-spacing: 0.08em !important;
+
+}
+
+  
+  
+
+.artifacts-card:hover
+
+.artifacts-card-link {
+
+  
+
+color: #ffffff !important;
+
+}
+
+  
+  
+
+/* =======================================================
+
+TABLET
+
+======================================================= */
+
+  
+
+@media (max-width: 1100px) {
+
+  
+
+.page {
+
+  
+
+grid-template-columns:
+
+240px
+
+minmax(0, 1fr) !important;
+
+  
+
+}
+
+  
+
+.artifacts-page {
+
+  
+
+padding:
+
+50px
+
+40px
+
+100px !important;
+
+  
+
+}
+
+  
+
+.artifacts-grid {
+
+  
+
+grid-template-columns:
+
+repeat(2, minmax(0, 1fr)) !important;
+
+  
+
+}
+
+  
+
+}
+
+  
+  
+
+/* =======================================================
+
+MOBILE
+
+======================================================= */
+
+  
+
+@media (max-width: 700px) {
+
+  
+
+.left.sidebar {
+
+display: none !important;
+
+}
+
+  
+
+.page {
+
+grid-template-columns:
+
+minmax(0, 1fr) !important;
+
+}
+
+  
+
+.artifacts-page {
+
+  
+
+padding:
+
+40px
+
+20px
+
+80px !important;
+
+  
+
+}
+
+  
+
+.artifacts-grid {
+
+  
+
+grid-template-columns:
+
+1fr !important;
+
+  
+
+}
+
+  
+
+}
+
+  
+
+}
