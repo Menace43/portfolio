@@ -4,10 +4,10 @@ title: Joel Adeyemo
 
 <div class="portfolio-home">
 <nav class="portfolio-nav">
-  <a href="/portfolio/" class="portfolio-logo">JOEL ADEYEMO</a>
+  <a href="/" class="portfolio-logo">JOEL ADEYEMO</a>
   <div class="portfolio-nav-links">
-    <a href="/portfolio/" class="active">HOME</a>
-    <a href="/artifacts/">ARTIFACTS</a>
+    <a href="/" class="active">HOME</a>
+    <a href="/artifacts/🏢-commercial-applications-of-ai----artifact-5/">ARTIFACTS</a>
     <a href="/about/">ABOUT</a>
     <a href="#contact">CONTACT</a>
   </div>
@@ -42,7 +42,7 @@ title: Joel Adeyemo
       <span class="section-eyebrow">SELECTED WORK</span>
       <h2>FEATURED ARTIFACTS</h2>
     </div>
-    <a href="/artifacts/" class="view-all">
+    <a href="/artifacts/🏢-commercial-applications-of-ai----artifact-5/" class="view-all">
       VIEW ALL →
     </a>
   </div>
