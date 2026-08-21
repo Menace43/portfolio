@@ -884,3 +884,82 @@ body:has(.portfolio-home) {
   }
 
 }
+
+
+/* ==========================================================
+   FULL-WIDTH PORTFOLIO HOMEPAGE
+   Remove Quartz sidebars and expand the portfolio
+   ========================================================== */
+
+body:has(.portfolio-home) {
+
+  /* Hide the left Quartz sidebar */
+  .sidebar.left {
+    display: none !important;
+  }
+
+  /* Hide the right Graph/TOC sidebar */
+  .sidebar.right {
+    display: none !important;
+  }
+
+  /* Hide the normal Quartz page header */
+  .page-header {
+    display: none !important;
+  }
+
+  /* Make the Quartz body use one column */
+  #quartz-body {
+    grid-template-columns: 1fr !important;
+    grid-template-areas:
+      "grid-center"
+      "grid-footer" !important;
+
+    column-gap: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  /* Expand the center content */
+  .center {
+    grid-area: grid-center !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    min-width: 0 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Expand the article */
+  .center > article {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Remove the normal Quartz title/meta area */
+  .article-title,
+  .content-meta,
+  .breadcrumbs {
+    display: none !important;
+  }
+
+  /* Make portfolio itself full width */
+  .portfolio-home {
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+  }
+
+  /* Remove default article spacing */
+  article {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
