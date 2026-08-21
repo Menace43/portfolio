@@ -455,4 +455,4 @@ tags:
 
 </div>
 
-<script src="/portfolio/ai-newsletter.js"></script>
+<script src="../../../quartz/static/ai-newsletter.js"></script>
