@@ -7,7 +7,7 @@ title: Joel Adeyemo
   <a href="/" class="portfolio-logo">JOEL ADEYEMO</a>
   <div class="portfolio-nav-links">
     <a href="/" class="active">HOME</a>
-    <a href="/artifacts/🏢-commercial-applications-of-ai----artifact-5/">ARTIFACTS</a>
+    <a href="/artifacts/🧠-machine-learning-vs-deep-learning-artifact/">ARTIFACTS</a>
     <a href="/about/">ABOUT</a>
     <a href="#contact">CONTACT</a>
   </div>
@@ -42,7 +42,7 @@ title: Joel Adeyemo
       <span class="section-eyebrow">SELECTED WORK</span>
       <h2>FEATURED ARTIFACTS</h2>
     </div>
-    <a href="/artifacts/🏢-commercial-applications-of-ai----artifact-5/" class="view-all">
+    <a href="/artifacts/🧠-machine-learning-vs-deep-learning-artifact/" class="view-all">
       VIEW ALL →
     </a>
   </div>
@@ -155,7 +155,7 @@ title: Joel Adeyemo
           Looking across Commercial AI and investing the business benefit for the AI
         </p>
         <a
-          href="artifacts/🏢-commercial-applications-of-ai----artifact-5/"
+          href="artifacts/5/"
           class="artifact-view"
         >
           VIEW DETAILS →

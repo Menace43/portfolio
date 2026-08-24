@@ -113,7 +113,7 @@ description: Projects, experiments, research, and things I've built.
         </div>
       </div>
     </div>
-    <div class="artifacts-card"href="/portfolio/artifacts/🏢-commercial-applications-of-ai----artifact-5/">
+    <div class="artifacts-card"href="/portfolio/artifacts/5/">
       <div class="artifacts-card-image">
         <div class="artifacts-placeholder">🏢</div>
       </div>
