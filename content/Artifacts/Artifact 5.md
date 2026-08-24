@@ -1,5 +1,5 @@
 ---
-title: Commercial Application of AI
+title: 🏢 Commercial Applications of AI  - Artifact 5
 description: The different Data Challenges and possible solution reasonings
 tags:
   - AI
