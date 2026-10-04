@@ -140,7 +140,7 @@ title: Joel Adeyemo
         </a>
       </div>
     </div>
-     <div class="artifact-card">
+    <div class="artifact-card">
       <div class="artifact-image artifact-ai">
         <span>🏢</span>
       </div>
@@ -162,8 +162,28 @@ title: Joel Adeyemo
         </a>
       </div>
     </div>
-     </div>
-     <div class="artifact-card">
+    <div class="artifact-card">
+      <div class="artifact-image artifact-ai">
+        <span>🚅</span>
+      </div>
+      <div class="artifact-card-content">
+        <div class="artifact-category">
+          AI • BUSINESS STRATEGY LEAD •  AI TOOL CHAINING • OPENART • COPILOT • CANVA 
+        </div>
+        <h3>
+          Generative AI Storytelling for Brand: Applying AI Tool Chaining to Business Strategy
+        </h3>
+        <p>
+          Using AI Tool Chaining to solve Business issues
+        </p>
+        <a
+          href="artifacts/7/"
+          class="artifact-view"
+        >
+          VIEW DETAILS →
+        </a>
+    </div>
+    <div class="artifact-card">
       <div class="artifact-image artifact-ai">
         <span>🏢</span>
       </div>
@@ -183,9 +203,7 @@ title: Joel Adeyemo
         >
           VIEW DETAILS →
         </a>
-      </div>
     </div>
-
   </div>
 </section>
 

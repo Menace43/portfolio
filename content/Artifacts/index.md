@@ -137,6 +137,33 @@ description: Projects, experiments, research, and things I've built.
         </div>
       </div>
     </div>
+    <div class="artifacts-card"href="/portfolio/artifacts/7/">
+      <div class="artifacts-card-image">
+        <div class="artifacts-placeholder">🏢</div>
+      </div>
+      <div class="artifacts-card-content">
+        <div class="artifact-category">
+          AI • BUSINESS STRATEGY LEAD •  AI TOOL CHAINING • OPENART • COPILOT • CANVA 
+        </div>
+        <h2>
+          Generative AI Storytelling for Brand: Applying AI Tool Chaining to Business Strategy
+        </h2>
+        <p>
+          Using AI Tool Chaining to solve Business issues
+        </p>
+        <div class="artifact-tags">
+          <span>AI</span>
+          <span>AI Tool Chaining</span>
+          <span>Business Strategy Lead</span>
+          <span>OpenArt/span>
+          <span>Copilot</span>
+          <span>Canva</span>
+        </div>
+        <div class="artifacts-card-link">
+          VIEW DETAILS →
+        </div>
+      </div>
+    </div>
     <div class="artifacts-card"href="/portfolio/artifacts/8/">
       <div class="artifacts-card-image">
         <div class="artifacts-placeholder">🏢</div>
