@@ -182,6 +182,7 @@ title: Joel Adeyemo
         >
           VIEW DETAILS →
         </a>
+      </div>
     </div>
     <div class="artifact-card">
       <div class="artifact-image artifact-ai">
@@ -203,6 +204,7 @@ title: Joel Adeyemo
         >
           VIEW DETAILS →
         </a>
+      </div>
     </div>
   </div>
 </section>
