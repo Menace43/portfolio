@@ -162,6 +162,29 @@ title: Joel Adeyemo
         </a>
       </div>
     </div>
+     </div>
+     <div class="artifact-card">
+      <div class="artifact-image artifact-ai">
+        <span>🏢</span>
+      </div>
+      <div class="artifact-card-content">
+        <div class="artifact-category">
+          AI • BUSINESS STRATEGY LEAD • AI SECURITY AND PRIVACY
+        </div>
+        <h3>
+          AI Security, Privacy, and Executive Decision-Making
+        </h3>
+        <p>
+         Making quick and critical decision for an Integrated AI system
+        </p>
+        <a
+          href="artifacts/8/"
+          class="artifact-view"
+        >
+          VIEW DETAILS →
+        </a>
+      </div>
+    </div>
 
   </div>
 </section>

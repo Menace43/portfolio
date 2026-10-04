@@ -137,6 +137,30 @@ description: Projects, experiments, research, and things I've built.
         </div>
       </div>
     </div>
+    <div class="artifacts-card"href="/portfolio/artifacts/8/">
+      <div class="artifacts-card-image">
+        <div class="artifacts-placeholder">🏢</div>
+      </div>
+      <div class="artifacts-card-content">
+        <div class="artifact-category">
+          AI • BUSINESS STRATEGY LEAD • AI SECURITY AND PRIVACY
+        </div>
+        <h2>
+          MeridianAssist AI Security, Privacy, and Executive Decision-Making
+        </h2>
+        <p>
+          Making quick and critical decision for an Integrated AI system
+        </p>
+        <div class="artifact-tags">
+          <span>AI</span>
+          <span>Business Strategy Lead</span>
+          <span>AI Security and Privacy</span>
+        </div>
+        <div class="artifacts-card-link">
+          VIEW DETAILS →
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
